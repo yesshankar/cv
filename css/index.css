@@ -1,0 +1,80 @@
+
+body{
+    background: #abcdef;
+    background: linear-gradient(#15945c,#155a95);
+}
+.wrapper{
+    width: 960px;
+    margin: 0px auto;
+    padding: 10px;
+    box-shadow: 0px 0px 40px;
+}
+
+@media (max-width: 720px) {
+    .wrapper{
+        width: 600px;
+        margin: 0px auto;
+        padding: 10px;
+        box-shadow: 0px 0px 40px;
+    }
+}
+a{
+    text-decoration: none;
+}
+
+p, li, #tech-sum{
+    line-height: 21px;
+}
+
+ul{
+    list-style-image: url("../images/ul_image.png");
+}
+
+.clear{
+    clear: both;
+}
+
+.indent{
+    padding-left: 20px;
+}
+.l2r{
+    background: linear-gradient(#4abdac,#15945c);
+    margin: 10px;
+    padding: 10px;
+}
+
+.r2l{
+    background: linear-gradient(#4abdac,#155a95);
+    margin: 10px;
+    padding: 10px;
+}
+
+#profile-pic{
+    float: left;
+}
+#profile-pic img{
+    width: 200px;
+    height: 210px;
+    border-radius: 20px;
+}
+
+#intro{
+    height: 220px;
+}
+#career-obj, #skill-sum{
+    height: 150px;
+}
+
+#education, #tech-sum{
+    height: 300px;
+}
+
+#honor{
+    height: 150px;
+}
+#info, footer{
+    text-align: center;
+}
+h3{
+    display: inline;
+}
